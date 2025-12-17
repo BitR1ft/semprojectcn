@@ -5,7 +5,7 @@ A lightweight Flask-based GUI to inspect `.pcap` captures and extract investigat
 ## Quick start
 
 ```bash
-cd /home/runner/work/semprojectcn/semprojectcn
+cd /path/to/semprojectcn
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -26,3 +26,4 @@ python app.py
 
 - Uses Scapy to parse captures; no admin privileges needed for offline analysis.
 - Upload limit is capped at 20 MB to avoid excessive memory use.
+- Override `HOST=0.0.0.0` only on trusted networks; defaults to `127.0.0.1` for local use.
