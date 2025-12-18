@@ -1,0 +1,13 @@
+# Python Requirements for Computer Networks Chat Application
+# Semester Project
+
+# Standard library modules (no installation needed)
+# - socket: For network communication (Transport Layer)
+# - threading: For concurrent client handling
+# - json: For data serialization (Presentation Layer)
+# - tkinter: For GUI (usually comes with Python)
+# - datetime: For timestamps
+# - base64: For file encoding
+
+# Note: This project uses only Python standard library modules
+# No additional installations required if using Python 3.6+
